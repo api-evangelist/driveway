@@ -1,22 +1,61 @@
 aid: driveway
-name: Driveway
-description: Driveway is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/driveway.png
+name: Driveway Corporation
+description: 'Driveway Corporation was a dot-com-era online file storage and sharing
+  service that operated driveway.com from roughly 1998 until 2001. Its consumer product
+  let members "store and access files from any Web-connected computer" and share documents,
+  photos and MP3s with friends and colleagues, with up to 100 MB of free storage on
+  sign-up; it also marketed a white-label "Driveway Private Label Storage" offering
+  to other websites. Battery Ventures lists Driveway Corporation as an exited investment.
+  The company is defunct and no longer operates any web, developer or API surface.
+  NOTE: the driveway.com domain today belongs to an unrelated business — Lithia Motors''
+  Driveway online car marketplace — and must not be attributed to this company.'
 url: https://raw.githubusercontent.com/api-evangelist/driveway/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-defunct-circa: '2001'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Storage
+- File Sharing
+- Cloud Storage
+- Consumer
+- Dot-Com Era
+- Battery Ventures Portfolio
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Identity resolved via the Battery Ventures exited-investment listing and Wayback
+    Machine snapshots of driveway.com (2000). Company is defunct; no live domain under
+    its control, no developer portal, no API surface. A Wayback CDX sweep of driveway.com
+    over 1998-2003 returned zero api/developer/sdk URLs. No artifacts generated — nothing
+    to search, probe or derive from.
